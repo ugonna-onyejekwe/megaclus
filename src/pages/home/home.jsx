@@ -1,8 +1,6 @@
 import downloadAppA from "../../assets/download-a.png";
 import downloadAppG from "../../assets/download-g.png";
-import phone1 from "../../assets/phone1.png";
-import phone2 from "../../assets/phone2.png";
-import imageBg from "../../assets/homeBg.png";
+import homeImage from "../../assets/home-img.png";
 import "./home.scss";
 
 export const Home = () => {
@@ -29,18 +27,7 @@ export const Home = () => {
         </div>
 
         <div className="img_con">
-          <div className="wrapper">
-            <div className="img_bg">
-              <img src={imageBg} alt="home_bg" />
-            </div>
-
-            <div className="img phone1">
-              <img src={phone1} alt="phone image 1" />
-            </div>
-            <div className="img phone2">
-              <img src={phone2} alt="phone image 2" />
-            </div>
-          </div>
+          <img src={homeImage} alt="image" />
         </div>
       </div>
     </div>

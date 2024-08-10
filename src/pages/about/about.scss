@@ -1,0 +1,90 @@
+@import "../../variables.scss";
+
+.about_section {
+  .container {
+    padding-top: 100px;
+
+    .header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        text-transform: capitalize;
+        font-size: 30px;
+        position: relative;
+        width: fit-content;
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: -7px;
+          background: $primary_color;
+          height: 3px;
+          width: 40%;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 10px;
+        }
+      }
+
+      p {
+        margin-top: 15px;
+        width: 600px;
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: 50px;
+
+      .txt_box {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+        max-width: 300px;
+        width: 100%;
+
+        &:first-child {
+          top: 0;
+          left: 0;
+        }
+
+        &:nth-child(2) {
+          top: 0;
+          right: 0;
+        }
+        span {
+          height: 40px;
+          width: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          background: $primary_color;
+          border-radius: 50%;
+          font-size: 14px;
+          line-height: 0;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+
+        .txt {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@ import "./footer.scss";
 import youtube from "../../assets/yt-icon.png";
 import twitter from "../../assets/Twitter-icon.png";
 import facebook from "../../assets/fb-icon.png";
-import ig from "../../assets/ig-icon.png";
+import ig from "../../assets/Ig-icon.png";
 import logo from "../../assets/logo2.png";
 import email_icon from "../../assets/email-icon.png";
 import phone_icon from "../../assets/phone-icon.png";

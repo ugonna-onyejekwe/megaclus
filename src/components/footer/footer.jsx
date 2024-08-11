@@ -43,16 +43,6 @@ export const Footer = () => {
         </div>
 
         <div className="box">
-          <h3>quick links</h3>
-          <div className="links">
-            <a href="#">about us</a>
-            <a href="#">services</a>
-            <a href="#">pricing</a>
-            <a href="#">testimonial</a>
-          </div>
-        </div>
-
-        <div className="box">
           <h3>contact us</h3>
 
           <div className="txt_con">
@@ -78,15 +68,10 @@ export const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="box">
-          <h3>newsletter</h3>
-
-          <div className="input_con">
-            <input type="email" placeholder="Enter your email" />
-            <button>subscribe</button>
-          </div>
-        </div>
+      <div className="copyright">
+        <p>&copy; 2024. Megaclus. All rights reserved</p>
       </div>
     </footer>
   );

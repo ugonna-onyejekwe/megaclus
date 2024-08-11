@@ -1,12 +1,13 @@
 import "./footer.scss";
-import youtube from "../../assets/yt-icon.png";
-import twitter from "../../assets/Twitter-icon.png";
-import facebook from "../../assets/fb-icon.png";
-import ig from "../../assets/Ig-icon.png";
+
 import logo from "../../assets/logo2.png";
-import email_icon from "../../assets/email-icon.png";
-import phone_icon from "../../assets/phone-icon.png";
-import location_icon from "../../assets/location-icon.png";
+
+import { MdEmail, MdLocalPhone } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FiTwitter } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+import { LuFacebook } from "react-icons/lu";
 
 export const Footer = () => {
   return (
@@ -22,20 +23,33 @@ export const Footer = () => {
             amet neque tortor.
           </p>
 
-          <div className="socails">
-            <img src={youtube} alt="youtube icon" />
-            <img src={twitter} alt="x icon" />
-            <img src={ig} alt="ig icon" />
-            <img src={facebook} alt="fb icon" />
+          <div className="socials">
+            <span>
+              <AiOutlineYoutube />
+            </span>
+
+            <span>
+              <FiTwitter />
+            </span>
+
+            <span>
+              <FaInstagram />
+            </span>
+
+            <span>
+              <LuFacebook />
+            </span>
           </div>
         </div>
 
         <div className="box">
           <h3>quick links</h3>
-          <a href="#">about us</a>
-          <a href="#">services</a>
-          <a href="#">pricing</a>
-          <a href="#">testimonial</a>
+          <div className="links">
+            <a href="#">about us</a>
+            <a href="#">services</a>
+            <a href="#">pricing</a>
+            <a href="#">testimonial</a>
+          </div>
         </div>
 
         <div className="box">
@@ -43,17 +57,23 @@ export const Footer = () => {
 
           <div className="txt_con">
             <div className="txt">
-              <img src={email_icon} alt="email icon" />
+              <span>
+                <MdEmail />
+              </span>
               <p> ekomobong@gmail.com</p>
             </div>
 
             <div className="txt">
-              <img src={location_icon} alt="loaction icon" />
+              <span>
+                <IoLocationOutline />
+              </span>
               <p> Lagos, Nigeria</p>
             </div>
 
             <div className="txt">
-              <img src={phone_icon} alt="phone icon" />
+              <span>
+                <MdLocalPhone />
+              </span>
               <p> +234 8074839200</p>
             </div>
           </div>
@@ -63,7 +83,7 @@ export const Footer = () => {
           <h3>newsletter</h3>
 
           <div className="input_con">
-            <input type="email" />
+            <input type="email" placeholder="Enter your email" />
             <button>subscribe</button>
           </div>
         </div>

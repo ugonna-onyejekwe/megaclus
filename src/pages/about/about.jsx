@@ -14,35 +14,41 @@ export const About = () => {
         </div>
 
         <div className="wrapper">
-          <div className="txt_box">
-            <span>1</span>
-            <h3>As a Business</h3>
+          <div className="box_con">
+            <div className="box">
+              <div className="txt_box">
+                <span>1</span>
+                <h3>As a Business</h3>
 
-            <div className="txt">
-              <p>
-                Link your Olivia Store, Shopify Stores etc to your social media
-                accounts seamlessly
-              </p>
+                <div className="txt">
+                  <p>
+                    Link your Olivia Store, Shopify Stores etc to your social
+                    media accounts seamlessly
+                  </p>
 
-              <p>Never miss a social media Sell</p>
+                  <p>Never miss a social media Sell</p>
 
-              <p>One platform for social media and everything commerce</p>
+                  <p>One platform for social media and everything commerce</p>
 
-              <p>Create, mange and promote events</p>
+                  <p>Create, mange and promote events</p>
 
-              <p>Monetize accounts</p>
+                  <p>Monetize accounts</p>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="txt_box">
-            <span>2</span>
-            <h3>As a User</h3>
+            <div className="box">
+              <div className="txt_box">
+                <span>2</span>
+                <h3>As a User</h3>
 
-            <div className="txt">
-              <p>Post, Chat, Comment and buy from one place</p>
+                <div className="txt">
+                  <p>Post, Chat, Comment and buy from one place</p>
 
-              <p>Detailed inventory and order</p>
-              <p>No ads</p>
+                  <p>Detailed inventory and order</p>
+                  <p>No ads</p>
+                </div>
+              </div>
             </div>
           </div>
 

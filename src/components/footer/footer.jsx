@@ -18,28 +18,7 @@ export const Footer = () => {
             <img src={logo} alt="image" />
           </div>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit
-            amet neque tortor.
-          </p>
-
-          <div className="socials">
-            <span>
-              <AiOutlineYoutube />
-            </span>
-
-            <span>
-              <FiTwitter />
-            </span>
-
-            <span>
-              <FaInstagram />
-            </span>
-
-            <span>
-              <LuFacebook />
-            </span>
-          </div>
+          <p>Social media for everything commerce</p>
         </div>
 
         <div className="box">
@@ -48,23 +27,27 @@ export const Footer = () => {
           <div className="txt_con">
             <div className="txt">
               <span>
-                <MdEmail />
+                <IoLocationOutline />
               </span>
-              <p> ekomobong@gmail.com</p>
+              <p>
+                {" "}
+                800 N King Street Suite 304 2236 Wilmington, DE 19801 United
+                States
+              </p>
             </div>
 
             <div className="txt">
               <span>
-                <IoLocationOutline />
+                <MdEmail />
               </span>
-              <p> Lagos, Nigeria</p>
+              <p> info@gbikna.com</p>
             </div>
 
             <div className="txt">
               <span>
                 <MdLocalPhone />
               </span>
-              <p> +234 8074839200</p>
+              <p>+1-754-254-2430, +234-902-147-4294</p>
             </div>
           </div>
         </div>

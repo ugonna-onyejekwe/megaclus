@@ -1,5 +1,4 @@
-import downloadAppA from "../../assets/download-a.png";
-import downloadAppG from "../../assets/download-g.png";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 import homeImage from "../../assets/home-img.png";
 import "./home.scss";
 
@@ -16,13 +15,25 @@ export const Home = () => {
           </p>
 
           <div className="btns">
-            <div className="img">
-              <img src={downloadAppG} alt="get app on google" />
-            </div>
+            <a href="/">
+              <span>
+                <FaGooglePlay />
+              </span>
+              <div className="txt">
+                <small>Get it on</small>
+                <h4>Google play</h4>
+              </div>
+            </a>
 
-            <div className="img">
-              <img src={downloadAppA} alt="get app on apple" />
-            </div>
+            <a href="/">
+              <span>
+                <FaApple />
+              </span>
+              <div className="txt">
+                <small>Download on the</small>
+                <h4>apple store</h4>
+              </div>
+            </a>
           </div>
         </div>
 
